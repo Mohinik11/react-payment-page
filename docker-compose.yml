@@ -1,0 +1,14 @@
+version: "2"
+services:
+  ui:
+    build: .
+    restart: always
+    privileged: true
+    container_name: payment
+    volumes:
+      - ".:/payment"
+      - "./node_modules:/payment/node_modules"
+    command: /bin/bash -c -l "npm install && (npm start & npm run server)"
+    ports:
+      - "3000:3000"
+      - "4000:4000"

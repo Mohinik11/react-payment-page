@@ -1,0 +1,5 @@
+FROM node:latest
+
+ENV APP_HOME /payment
+WORKDIR $APP_HOME
+COPY . $APP_HOME

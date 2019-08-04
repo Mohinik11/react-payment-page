@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F7F7F7 !important;
+  color: #444444 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Roboto Condensed",
+    monospace;
+}
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: "Roboto Condensed";
+}
+
+button, span {
+  font-family: "Roboto Condensed";
+}
+.payment{
+  padding: 10px;
+  margin-top: 20px;
+}
+.navbar-bg {
+  background-color: #73D700;
+}
+.paypal-icon {
+  background-image: url("/images/paypal.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.credit-icon {
+  background-image: url("/images/creditcards.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.borderless .list-group-item{
+  border: 0;
+  background: none;
+}
+.box{
+  border: 30px solid transparent;
+  background-clip:padding-box;
+}
+.btn-custom
+{
+  background-color: #FFAD00;
+  color:#FFF;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.box-colored {
+  background-color: #73D700;
+  color: #FFF;
+}
+.circle {
+  border-radius: 50%;
+  text-align: center;
+}
+.padding-0{
+  padding-right:0;
+  padding-left:0;
+}
+.shadow-text {
+  color: #757575;
+}

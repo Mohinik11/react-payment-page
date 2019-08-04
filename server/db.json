@@ -1,0 +1,28 @@
+{
+  "paymentData":[
+    {
+      "id": 1, 
+      "fromStation": "Hanua central station", 
+      "toStation": "Lehrte station", 
+      "price": 29.00, 
+      "date": "2019-06-19T11:15:03.563Z",
+      "items": [
+        { "itemName": "Adult", "quantity": 2},
+        { "itemName": "Luggage", "weight": "20kg", "quantity": 2 },  
+        { "itemName": "Hand luggage", "weight": "7kg", "quantity": 2}
+      ]
+    },
+    {
+      "id": 1, 
+      "fromStation": "Hanover", 
+      "toStation": "Hanua central station", 
+      "price": 15.98, 
+      "date": "2019-06-19T11:15:03.563Z",
+      "items": [
+        {"itemName": "Adult", "quantity": 2},
+        { "itemName": "Luggage", "weight": "20kg", "quantity": 2},
+        { "itemName": "Hand Luggage", "weight": "7kg", "quantity": 2 }
+      ]
+    }
+  ]
+}
